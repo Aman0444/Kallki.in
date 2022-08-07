@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYTHON QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+     <!-- Favicon  -->
+ <link rel="apple-touch-icon" sizes="180x180" href="heo/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="heo/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="heo/favicon-16x16.png">
+ <link rel="manifest" href="heo/site.webmanifest">
+ <link rel="mask-icon" href="heo/safari-pinned-tab.svg" color="#5bbad5">
+ <meta name="msapplication-TileColor" content="#da532c">
+ <meta name="theme-color" content="#ffffff">
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GK22Q3BH9L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GK22Q3BH9L');
+</script>
+</head>
+<body>
+    <header class="header">
+
+        <a href="/index.html"><img src="/image/logo1.png" height="40px"></a>
+     
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Quiz<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                   <a href="/html/Quiz Application with Timer/index.html">HTML</a>
+                   <a href="/cssquiz/Quiz Application with Timer/index.html ">CSS</a>
+                   <a href="/javascript/Quiz Application with Timer/index.html">JAVASCRIPT</a>
+                   <a href="/python/Quiz Application with Timer/index.html">PYTHON</a>
+                   <a href="/c quiz/Quiz Application with Timer/index.html">C</a>
+                   <a href="/c++/Quiz Application with Timer/index.html">C++</a>
+                   
+                   <a href="/graphic/Quiz Application with Timer/index.html">Graphic</a>
+                </div>
+              </div>
+              <a href="/about/index.html">About</a>
+              <a href="/progress.html" target="">Upcoming </i></a> 
+              <a href="/contact/index.html">Contact Us</a>
+           
+            
+         </nav>
+     
+         <div class="icons">
+             <div class="fas fa-bars" id="menu-btn"></div>
+             <div class="fas fa-search" id="search-btn"></div>
+            <!-- <div class="fas fa-shopping-cart" id="cart-btn"></div>-->
+             <div class="fas fa-user" id="login-btn"></div>
+         </div>
+     
+         <form action="" class="search-form">
+             <input type="search" id="search-box" placeholder="search here...">
+             <label for="search-box" class="fas fa-search"></label>
+         </form>
+         
+     
+         <form action="" class="login-form">
+             <h3>login now</h3>
+             <input type="email" placeholder="your email" class="box">
+             <input type="password" placeholder="your password" class="box">
+             <p>forget your password <a href="#">click here</a></p>
+             <p>don't have an account <a href="#">create now</a></p>
+             <a href="/progress.html" class="btn">Login Now</a>
+         </form>
+     
+     </header>
+
+   
+    
+     
+     <!-- header section ends -->
+     
+     <!-- home section starts  -->
+     
+   
+     
+    <!-- start Quiz button -->
+    <div class="headd">
+    <div class="start_btn"><button>PYTHON QUIZ</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    </div>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3> KALLKI </h3>
+                <p>The Best Yet To Come</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/profile.php?id=100084238931241" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/teamkallki" class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/team_kallki_?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/kallki-0-502898247/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                
+                <a href="tel:+0000000000" class="links"> <i class="fas fa-phone"></i> +0000000000" </a>
+                <a href="tel:+0000000000" class="links"> <i class="fas fa-phone"></i> +0000000000 </a>
+                <a href="mailto:team@kallki.in ?subject=Query Regarding Webiste &body=Hey Team Kallki," class="links"> <i class="fas fa-envelope" ></i>Team@kallki.in  </a>
+                <a href="https://maps.app.goo.gl/qFFAZAVnBzdecoiY7" class="links"> <i class="fas fa-map-marker-alt"></i> Bangalore, India - 560054 </a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+    
+            <div class="box">
+                <h3>Suggestion</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+               <!--- <img src="image/payment.png" class="payment-img" alt=""> -->
+            </div>
+    
+        </div>
+    
+        <div class="credit"> Created by <span> Team Zero </span> | Copyright&#169;2022 <a href="https://www.kallki.in/">Kallki</a> All rights reserved 
+        </div>
+    
+    </section>
+    
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+    
+ 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/graphic/menu.js"></script>
+</body>
+</html>
